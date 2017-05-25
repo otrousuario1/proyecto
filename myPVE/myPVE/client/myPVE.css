@@ -1,0 +1,34 @@
+.logo{
+	margin-left: 280px;
+
+}
+body{
+    background-image: url(fondo.png);
+    font-family: 'Roboto', sans-serif;
+}
+
+.topbar{
+	background: #333;
+	color:#99c00f;
+}
+.navbar{
+	background-color: #333;
+	margin-bottom: 0px; 
+}
+
+.navbar .nav >li >a{
+	color:white;
+}
+.navbar li a:hover, .navbar li a:active{
+	color: #99c00f !important;
+}
+.jumbotron{
+	color: black;
+	text-align: center;
+	background-image: url(imagen 01.jpg);
+	background-attachment: fixed;
+}
+.panel-heading, .btn-search{
+	background-color: #99c00f !important;
+	color:white; 
+}
