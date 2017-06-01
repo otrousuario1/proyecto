@@ -36,10 +36,12 @@
 
 			      <ul class="nav navbar-nav navbar-right">
 			        {{#if Meteor.currentuser}}
-			        <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> </a></li>
+			        <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Usuario: {{correntUser.username}} </a></li>
+			        <li><a href="#" data-toggle="modal" id="logout"><span class="fa fa-sign-out" aria-hidden="true"></span> Cerrar sesion</a></li>
+			        {{else}}
+			        <li><a href="#" data-toggle="modal" id="login"><span class="glyphicon glyphicon-log-in" aria-hidden="true">Inicio sesión</span> </a></li>
+			        <li><a href="#" data-toggle="modal" id="register"><span class="glyphicon glyphicon-plus" aria-hidden="true">Registro</span> </a></li>
 			        {{/if}}
-			        <li><a href="#"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span> Inicio sesión</a></li>
-			        <li><a href="#"><span class="glyphicon glyphicon-plus" aria-hidden="true"></span> Registro</a></li>
 			      </ul>
 			    </div><!-- /.navbar-collapse -->
 			  </div><!-- /.container-fluid -->

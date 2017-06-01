@@ -28,3 +28,7 @@ accounts-ui
 aldeed:collection2
 twbs:bootstrap
 jquery-waypoints
+
+accounts-base
+peppelg:bootstrap-3-modal
+themeteorchef:jquery-validation
